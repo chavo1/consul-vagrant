@@ -1,0 +1,13 @@
+{
+  "bootstrap_expect": 2,
+  "client_addr": "0.0.0.0",
+  "data_dir": "/var/lib/consul",
+  "server": true,
+  "retry_join": [
+    "192.168.56.51",
+    "192.168.56.52"
+  ],
+  "ui": true,
+  "verify_incoming": false,
+  "verify_outgoing": false
+}
